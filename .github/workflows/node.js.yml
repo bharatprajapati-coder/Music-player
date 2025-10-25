@@ -1,0 +1,32 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches: [ "master" ]  # or main if your branch is main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Optional: Node setup if you plan to use npm scripts
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies (optional)
+      run: npm install || echo "No dependencies to install"
+
+    - name: Build (optional)
+      run: npm run build || echo "No build step"
+
+    # Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v6
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Use ./dist if you have a build folder
