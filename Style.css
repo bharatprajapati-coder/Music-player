@@ -8,7 +8,7 @@
 }
 
 nav ul {
-    background-color: black;
+    background-color: #0e141e;
     align-items: center;
     display: flex;
 }
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 .brand {
-    background-color: black;
+    background-color: #0e141e;
     color: rgb(35, 194, 194);
     font-weight: bolder;
     align-items: center;
@@ -193,7 +193,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
     transition-timing-function: ease-in-out;
     transition: 0.3s;
 }
-
 
 
 @media screen and (max-width:320px) {
