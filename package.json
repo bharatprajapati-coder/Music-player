@@ -1,0 +1,26 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "main": "Script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharatprajapati-coder/Music-player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharatprajapati-coder/Music-player/issues"
+  },
+  "homepage": "https://github.com/bharatprajapati-coder/Music-player#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
