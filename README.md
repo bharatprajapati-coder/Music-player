@@ -1,2 +1,2 @@
 # My Project
-![Build Status](https://github.com/<username>/<repo>/actions/workflows/deploy.yml/badge.svg)
+![Build Status](https://github.com/bharatprajapati-coder//Music-player/actions/workflows/node.js.yml/badge.svg)
