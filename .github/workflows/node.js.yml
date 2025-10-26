@@ -21,6 +21,9 @@ jobs:
     - name: Install dependencies (optional)
       run: npm install || echo "No dependencies to install"
 
+    - name : Run test
+      run: npm test
+     
     - name: Build (optional)
       run: npm run build || echo "No build step"
 
